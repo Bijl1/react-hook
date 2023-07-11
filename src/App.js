@@ -11,6 +11,8 @@ function App() {
         { show ? "Hide" : "Show"}
       </button>
       {show && <Counter />}
+
+      {show && <Timer />}
     </div>
   );
 }
